@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://powmain00001"]
+
+; scenes/main.tscn
+; Root scene — a bare Node3D whose attached script (main.gd) builds
+; all world geometry (ground, house, lighting, player) at runtime.
+; Open in Godot, press F5 to run.
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_mainscript"]
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_mainscript")
