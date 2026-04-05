@@ -1,0 +1,18 @@
+# Godot 4 – files the editor generates automatically; never commit these.
+
+# Import cache
+.import/
+.godot/
+
+# Export artifacts
+*.apk
+*.aab
+*.ipa
+*.zip
+*.exe
+*.x86_64
+*.app
+export_presets.cfg
+
+# macOS noise
+.DS_Store
